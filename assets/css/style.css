@@ -1,0 +1,173 @@
+/* Navbar */
+.nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+    color: var(--dark);
+    font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--primary);
+}
+
+/*Zoom et transation des images*/
+
+.zoom-img img {
+    transition: .5s;
+}
+
+.zoom-img:hover img {
+    transform: scale(1.1);
+}
+
+/* Les bordures des carts */
+.card {
+    border: none;
+    border-radius: 0;
+    transform: scale(0.1s);
+    transition: 1s ease-in-out;
+}
+
+
+/* Les traits de sous titres */
+.section-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: calc(100% + 80px);
+    height: 2px;
+    top: 4px;
+    left: -40px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 120px);
+    height: 2px;
+    bottom: 5px;
+    left: -60px;
+    background: var(--primary);
+    z-index: -1;
+}
+
+.section-title.text-start::before {
+    width: calc(100% + 40px);
+    left: 0;
+}
+
+.section-title.text-start::after {
+    width: calc(100% + 60px);
+    left: 0;
+}
+
+/* Les Services eLEARNING  */
+.service-item {
+    background: var(--light);
+    transition: .5s;
+} 
+
+.service-item:hover {
+    margin-top: -10px;
+    background: var(--primary);
+}
+
+.service-item * {
+    transition: .5s;
+}
+
+.service-item:hover * {
+    color: var(--light) !important;
+}
+ /* Donner le couleur " #06BBCC" aux services */
+ :root {
+    --primary: #06BBCC;
+    --light: #F0FBFC;
+    --dark: #181d38;
+}
+/* couleurs des boutons de carousel students */
+.studentCarouselBtn button:not(.active) {
+    background-color: white !important;
+  }
+
+/* Footer */
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    font-weight: normal;
+    border: 1px solid #FFFFFF;
+    border-radius: 35px;
+    transition: .3s;
+}
+
+.footer .btn:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: capitalize;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+/* copyright en light */
+.footer .copyright a {
+    color: var(--light);
+}
+/* bordure des liens à droite  */
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+/* margin à droite en bas */
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+/* eliminer les traits sous les liens */
+.footer a {
+    text-decoration: none; 
+}
+
+
+/* media screen */
+@media (max-width: 991.98px) {
+    .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+}
+
+
+

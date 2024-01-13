@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>eLEARNING</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+   
+
+    <!-- Lien des icons  -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Lien Bootstrap  -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Lien CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Script navbar fixe lors de scrolling -->
+    <script>
+         $(document).ready(function () {
+        // Add the class 'fixed-top' to the navbar when scrolling
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('.navbar').addClass('fixed-top');
+            } else {
+                $('.navbar').removeClass('fixed-top');
+            }
+        });
+    });
+    </script>
+   
+</head>
+
+<body>
+    
+    <!-- Début Header -->
+    <div class="container-fluid mb-5">
+
+        <!-- Début Navbar -->
+        <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky p-0 fixed-top mb-5 ">
+                
+            <a href="index.html" class="m-2 navbar-brand d-flex align-items-center px-4 px-lg-5 justify-content-start">
+                <h2  style="color: #06BBCC;"><i class="fa fa-book me-3" style="color: #06BBCC;"></i>eLEARNING</h2>
+            </a>
+            
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#x"><span class="navbar-toggler-icon"></span></button>
+
+            <ul id="x"class="navbar-nav collapse navbar-collapse justify-content-end">
+
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+
+                    <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">COURSE</a></li>
+
+                  
+                    <!-- Début Sous liste -->
+               
+                    <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"   >PAGES</a> 
+
+                        <ul class="dropdown-menu fade-down m-0" data-bs-toggle="#dropdown" >
+                            <li ><a class="dropdown-item"href="">Our Team</a></li>
+                            <li ><a class="dropdown-item"href="">Testimonial</a></li>
+                            <li ><a class="dropdown-item"href="">404 Page</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+
+                    <!-- Fin Sous liste -->
+
+                <a style="background-color: #06BBCC; border-radius: 0px;" href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Join Now<i class="fa fa-arrow-right ms-3"></i></a>
+                </div>
+
+            </ul>
+        </nav>
+        <!-- Fin Navbar -->
+
+    </div> 
+    <!-- Fin Header -->
+
+
+    <!-- Début Carousel -->
+    <div class="container-fluide p-2 mb-5 ">
+
+        <!-- slider container -->
+        <div id="c1" class="carousel slide position-relative ">
+
+            <div class="carousel-inner">
+                
+                <!-- image 1 -->
+                <div class="carousel-item active ">
+
+                    <img src="assets/imgs/carousel-2.jpg" class="img-fluid w-100 ">
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center " style="background: rgba(24, 29, 56,.7);">
+
+                        <div class="container ">
+                            <div class="row  justify-content-start">
+
+                                <div class="col-sm-10 col-lg-8  align-content-center">
+
+                                    
+                                       
+                                        <h5 style="color: #06BBCC;">Best Online Courses</h5>
+                                   
+
+                                    <h1 class="display-3 text-white  animated slideInDown"><strong>The Best Online Learning Platform</strong></h1>
+
+                                    <p class="fs-5 text-white ">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+
+                                    <a href="" class="btn btn-primary py-md-3 px-md-3 me-3 animated mb-5 ">Read More</a>
+                                    <a href="" class="btn btn-light py-md-3 px-md-3 mb-5 animated slideInRight">Join Now</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                </div>
+
+                <!-- image 2 -->
+                <div class="carousel-item ">
+
+                    <img src="assets/imgs/carousel-1.jpg" class="img-fluid w-100 ">
+
+                    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center " style="background: rgba(24, 29, 56,.7);">
+
+                        <div class="container ">
+                            <div class="row  justify-content-start">
+
+                                <div class="col-sm-10 col-lg-8  align-content-center">
+
+                                    
+                                       
+                                        <h5 style="color: #06BBCC;">Best Online Courses</h5>
+                                   
+
+                                    <h1 class="display-3 text-white  animated slideInDown"><strong>The Best Online Learning Platform</strong></h1>
+
+                                    <p class="fs-5 text-white ">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea sanctus eirmod elitr.</p>
+
+                                    <a href="" class="btn btn-primary py-md-3 px-md-3 me-3 animated mb-5 ">Read More</a>
+                                    
+                                    <a href="" class="btn btn-light py-md-3 px-md-3 mb-5 animated slideInRight">Join Now</a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+
+                </div>
+
+                 <!-- Indicators -->
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#c1" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#c1" data-bs-slide-to="1"></button>
+                
+                </div>
+
+                <!-- left & right Fléches -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#c1" data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="visually-hidden">Previous</span>
+
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#c1" data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="visually-hidden">Next</span>
+                
+                </button>
+
+            </div>
+
+        </div>
+            
+           
+    </div>
+    <!-- Fin Carousel -->
+
+
+    <!-- Début Services eLEARNING -->
+    <div class="container mb-5 ">
+
+        <div class="row  justify-content-around">
+
+            <div class="col-lg-3 col-sm-6">
+               <div class="text-center service-item">
+                <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i>
+                <h5 class="mb-3">Skilled Instructors</h5>
+               <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+               </div>
+            </div>
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="text-center service-item">
+                <i class="fa fa-3x fa-globe text-primary mb-4"></i>
+                <h5 class="mb-3">Online Courses</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+              </div>
+            </div> 
+
+            <div class="col-lg-3 col-sm-6">
+              <div class="text-center service-item">
+                <i class="fa fa-3x fa-home text-primary mb-4"></i>
+                <h5 class="mb-3">Home Projects</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+              </div>
+            </div>
+            
+            <div class="col-lg-3 col-sm-6">
+               <div class="text-center service-item">
+                <i class="fa fa-3x fa-book-open text-primary mb-4 "></i>
+                <h5 class="mb-3">Book Library</h5>
+                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+               </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Fin Services -->
+
+
+    <!-- Début "About Us"  -->
+    <div class="container mb-5 ">
+
+        <div class="row ">
+
+            <div class="col-lg-6 col-sm-8 " style="min-height: 400px ;">
+                <div class="position-relative h-100 mr ">
+                    <img class="img-fluid position-absolute w-100 h-100" src="assets/imgs/about.jpg" alt="" >
+                </div>
+
+            </div>
+
+           <div class="col-lg-6 ">
+                <h6 class="section-title bg-white text-start text-primary pe-3">About Us</h6>
+                <h1 class="mb-4">Welcome to eLEARNING</h1>
+                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
+                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+
+
+                <div class=" d-lg-flex justify-content-around d-sm-block  ">
+             
+                    <div class="col-lg-6 col-sm-10">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificates</p>
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
+                        
+                    </div>
+                    <div class="col-lg-6 col-sm-10 ">
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Online Classes</p>
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Skilled Instructors</p>
+                        <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>International Certificates</p>
+                    </div>
+
+                </div>
+                <a class="btn btn-primary py-3 px-5 mt-2" sthref="">Read More</a>
+            </div>
+            
+        </div>
+
+    </div>
+    <!-- Fin "About Us" -->
+
+
+    <!-- Début Courses Categories -->
+    <div class="container d-sm-block mb-5">
+
+        <!-- Partie Title -->
+
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Categories</h6>
+            <h1 class="mb-5">Courses Categories</h1>
+        </div>
+
+        <div class="row">
+            
+            <!-- Colone 1 : plusieurs photos  -->
+
+            <div class="col-lg-7 d-sm-block mb-3 ">
+
+                <!-- la Photo de row 1 -->
+
+                <div class="row ">
+
+                    <div class="position-relative d-block overflow-hidden zoom-img">
+                        <div class="col mb-3 wow zoomIn " data-wow-delay="0.1s">
+                            <img class="img-fluid" src="assets/imgs/cat-1.jpg" alt="">
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3 mb-3" style="margin: 1px;">
+                                <h5 class="m-0">Web Design</h5>
+                                <small class="text-primary">49 Courses</small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Deux photos de  row 2 -->
+
+                <div class="row d-flex justify-content-around">
+
+                    <div class="position-relative d-block overflow-hidden col-lg-6 d-sm-block mb-2 zoom-img">
+
+                        <img class="img-fluid h-100 w-100 " src="assets/imgs/cat-2.jpg" alt="">
+
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                <h5 class="m-0">Graphic Design</h5>
+                                <small class="text-primary">49 Courses</small>
+                            </div>
+                    </div>
+
+
+                    <div class="position-relative d-block overflow-hidden col-lg-6 d-sm-block mb-2 zoom-img">
+
+                        <img class="img-fluid  h-100 w-100" src="assets/imgs/cat-3.jpg" alt="">
+                            
+                            <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin: 1px;">
+                                    <h5 class="m-0">Video Editing</h5>
+                                    <small class="text-primary">49 Courses</small>
+                            </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Colone 2 : un seul photo  -->
+            
+            <div class="col-lg-5 mb-3 zoom-img">
+
+                <div class="position-relative d-block h-100 overflow-hidden">
+
+                    <img class="img-fluid h-100 w-100 " src="assets/imgs/cat-4.jpg" style="object-fit: cover;">
+
+                    <div class="bg-white text-center position-absolute bottom-0 end-0 py-2 px-3" style="margin:  1px;">
+                        <h5 class="m-0">Online Marketing</h5>
+                        <small class="text-primary">49 Courses</small>
+                    </div>
+
+                </div>
+                
+            </div>
+
+
+        </div>
+       
+
+    </div>
+    <!-- Fin Courses Categories -->
+
+
+    <!-- Début Popular Courses -->
+    <div class="container mb-5">
+
+        <!-- Partie Title -->
+
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">Courses</h6>
+            <h1 class="mb-5">Popular Courses</h1>
+        </div>
+
+        <!-- Partie Cards -->
+        <div class="row g-4 justify-content-around">
+
+                <!-- Colone de Card 1 -->
+                <div class="card col-lg-4 col-md-6 p-0 " style="width: 22rem;background-color: #e8f3f5">
+
+                    <div class="position-relative overflow-hidden zoom-img">
+                        <img class="img-fluid" src="assets/imgs/course-1.jpg" alt="">
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                        </div>
+                    </div>
+
+                    <div class="text-center p-4 pb-0">
+                        <h3 class="mb-0">$149.00</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small>(123)</small>
+                        </div>
+                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                    </div>
+
+                </div>
+
+                <!-- Colone de Card 2 -->
+                <div class="card col-lg-4 col-md-6 p-0" style="width: 22rem;background-color: #e8f3f5;">
+
+                    <div class="position-relative overflow-hidden zoom-img">
+                        <img class="img-fluid" src="assets/imgs/course-2.jpg" alt="">
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                        </div>
+                    </div>
+
+                    <div class="text-center p-4 pb-0">
+                        <h3 class="mb-0">$149.00</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small>(123)</small>
+                        </div>
+                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                    </div>
+
+                </div>
+
+                <!-- Colone de Card 3 -->
+                <div class="card col-lg-4 col-md-6 p-0" style="width: 22rem;background-color: #e8f3f5">
+
+                    <div class="position-relative overflow-hidden zoom-img">
+                        <img class="img-fluid" src="assets/imgs/course-3.jpg" alt="">
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0 mb-4">
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                            <a href="#" class="flex-shrink-0 btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Join Now</a>
+                        </div>
+                    </div>
+
+                    <div class="text-center p-4 pb-0">
+                        <h3 class="mb-0">$149.00</h3>
+                        <div class="mb-3">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small>(123)</small>
+                        </div>
+                        <h5 class="mb-4">Web Design & Development Course for Beginners</h5>
+                    </div>
+
+                    <div class="d-flex border-top">
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-user-tie text-primary me-2"></i>John Doe</small>
+                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-clock text-primary me-2"></i>1.49 Hrs</small>
+                        <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>30 Students</small>
+                    </div>
+
+                </div>
+
+        </div>
+
+    </div>
+    <!-- Fin Popular Courses -->
+
+
+    <!-- Début Expert Instructors -->
+    <div class="container mb-5">
+
+        <!-- Partie Title -->
+
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h6 class="section-title bg-white text-center text-primary px-3">INSTRUCTORS</h6>
+            <h1 class="mb-5">Expert Instructors</h1>
+        </div>
+
+        <!-- Partie Cards -->
+        <div class="row g-4 justify-content-around">
+
+                <!-- Colone de Card 1 -->
+                <div class="card col-lg-3 col-md-6 p-0 zoom-img" style="width: 17rem;background-color: #e8f3f5;">
+
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid" src="assets/imgs/team-1.jpg" alt="">
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0   mb-0">
+                            <div class=" d-flex justify-content-center pt-2 px-1" style="background-color:#e8f3f5 ;">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                          
+                        </div>
+                    </div>
+
+                    <div class="text-center p-4 pb-0 zoom-img">
+                        <h5 class="mb-4">Instructor Name</h5>
+                        <p>Designation</p>
+                    </div>
+
+                </div>
+
+                <!-- Colone de Card 2 -->
+                <div class="card col-lg-3 col-md-6 p-0 " style="width: 17rem;background-color: #e8f3f5;">
+
+                    <div class="position-relative overflow-hidden zoom-img">
+
+                        <img class="img-fluid" src="assets/imgs/team-2.jpg" alt="">
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0   mb-0">
+                            <div class=" d-flex justify-content-center pt-2 px-1" style="background-color:#e8f3f5 ;">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                          
+                        </div>
+                    </div>
+
+                    <div class="text-center p-4 pb-0">
+                        <h5 class="mb-4">Instructor Name</h5>
+                        <p>Designation</p>
+                    </div>
+
+                </div>
+
+                <!-- Colone de Card 3 -->
+              <div class="card col-lg-3 col-md-6 p-0" style="width: 17rem;background-color: #e8f3f5;">
+
+                    <div class="position-relative overflow-hidden zoom-img">
+
+                        <img class="img-fluid" src="assets/imgs/team-3.jpg" alt="">
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0   mb-0">
+                            <div class=" d-flex justify-content-center pt-2 px-1" style="background-color:#e8f3f5 ;">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                          
+                        </div>
+                    </div>
+
+                    <div class="text-center p-4 pb-0">
+                        <h5 class="mb-4">Instructor Name</h5>
+                        <p>Designation</p>
+                    </div>
+
+                </div>
+
+                <!-- Colonne de card 4 -->
+                <div class="card col-lg-3 col-md-6 p-0 zoom-img" style="width: 17rem;background-color: #e8f3f5;">
+
+                    <div class="position-relative overflow-hidden">
+                        <img class="img-fluid" src="assets/imgs/team-4.jpg" alt="">
+
+                        <div class="w-100 d-flex justify-content-center position-absolute bottom-0 start-0   mb-0">
+                            <div class=" d-flex justify-content-center pt-2 px-1" style="background-color:#e8f3f5 ;">
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-sm-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                          
+                        </div>
+                    </div>
+
+                    <div class="text-center p-4 pb-0">
+                        <h5 class="mb-4">Instructor Name</h5>
+                        <p>Designation</p>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+    <!-- Fin Expert Instructors -->
+
+        
+    <!--  Début Our Students Say!-->
+    <section class="mt-5  overflow-hidden mb-5">
+        <div class="container ">
+          <div class="d-flex gap-3 flex-row justify-content-center align-items-center">
+            
+            
+            <div class="text-center">
+                <h6 class="section-title bg-white text-center text-primary px-3">TESTIMONIAL</h6>
+                <h1 class="mb-5">Our Students Say!</h1>
+            </div>
+
+            <div class="lines">
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+  
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide "
+            height="500px"
+            data-bs-ride="carousel">
+          
+            
+            <div class="carousel-inner">
+
+              <!-- Card 1 -->
+              <div class="carousel-item active">
+                <div class="container" style="width: 35%;">
+
+                  <div class="d-flex flex-column align-items-center justify-content-center">
+                  
+                    <div>
+                      <img class="border rounded-circle p-2 mx-auto m-4 "
+                        src="assets/imgs/testimonial-1.jpg"
+                        alt="..."
+                      />
+                    </div>
+
+                    <h3>Client Name</h3>
+                    <p>Profession</p>
+
+                    <div class="p-3" style="background-color: #05bac9;">
+                      <p class="text-white text-center" style="font-size: 15px;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Molestias obcaecati illum molestiae, natus laudantium
+                        omnis.
+                      </p>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div class="carousel-item ">
+                <div class="container" style="width: 35%;">
+                  <div class="d-flex flex-column align-items-center justify-content-center">
+                    
+                    <div>
+                      <img class="border rounded-circle p-2 mx-auto m-4 "
+                        src="assets/imgs/testimonial-2.jpg"
+                        alt="..."
+                      />
+                    </div>
+                    
+                    <h3>Client Name</h3>
+                    <p>Profession</p>
+
+                    <div class="p-3" style="background-color: #05bac9;">
+                      <p class="text-white text-center" style="font-size: 15px;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Molestias obcaecati illum molestiae, natus laudantium
+                        omnis.
+                      </p>
+                    </div> 
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 3 -->
+              <div class="carousel-item ">
+                <div class="container" style="width: 35%;">
+                  <div class="d-flex flex-column align-items-center justify-content-center">
+                  
+                    <div>
+                      <img class="border rounded-circle p-2 mx-auto m-4 "
+                        src="assets/imgs/testimonial-3.jpg"
+                        alt="..."
+                      />
+                    </div>
+
+                    <h3>Client Name</h3>
+                    <p>Profession</p>
+
+                    <div class="p-3" style="background-color: #05bac9;">
+                      <p class="text-white text-center" style="font-size: 15px;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Molestias obcaecati illum molestiae, natus laudantium
+                        omnis.
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 4 -->
+              <div class="carousel-item ">
+                <div class="container" style="width: 35%;">
+                  <div class="d-flex flex-column align-items-center justify-content-center">
+                  
+                    <div>
+                      <img class="border rounded-circle p-2 mx-auto m-4 "
+                        src="assets/imgs/testimonial-4.jpg"
+                        alt="..."
+                      />
+                    </div>
+
+                    <h3>Client Name</h3>
+                    <p>Profession</p>
+
+                    <div class="p-3" style="background-color: #05bac9;">
+                      <p class="text-white text-center" style="font-size: 15px;">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Molestias obcaecati illum molestiae, natus laudantium
+                        omnis.
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- indicateurs-->
+              <div class="carousel-indicators bg-light studentCarouselBtn">
+
+                <button
+                  type="button"
+                  style="height: .8rem;width: .8rem;background-color: #05bac9;"
+                  data-bs-target="#carouselExampleCaptions "
+                  class="active border border-secondary"
+                  data-bs-slide-to="0"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+  
+                <button
+                  style="height: .8rem;width: .8rem;background-color: #05bac9;"
+                  type="button"
+                  class="border border-secondary"
+                  data-bs-target="#carouselExampleCaptions "
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+  
+                <button
+                  style="height: .8rem;width: .8rem;background-color: #05bac9;"
+                  type="button"
+                  class="border border-secondary"
+                  data-bs-target="#carouselExampleCaptions "
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+  
+                <button
+                  style="height: .8rem;width: .8rem;background-color: #05bac9;"
+                  type="button"
+                  class="border border-secondary"
+                  data-bs-target="#carouselExampleCaptions "
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+  
+              </div>
+
+            </div>
+
+          </div>
+          
+        </div>
+      </section>
+      
+    <!--  Fin Our Students Say!-->
+
+
+     <!-- footer -->
+        <footer class="container-fluid bg-dark text-light footer p-4 mt-2  ">
+            <div class="row p-5 m-3">
+
+                <div class="col-lg-3 col-sm-10 mt-2 mb-4" >
+                     <h4 class="text-white mb-3">Quick Link</h4>
+                    <a class="btn btn-link" href="">About Us</a>
+                    <a class="btn btn-link" href="">Contact Us</a>
+                    <a class="btn btn-link" href="">Privacy Policy</a>
+                    <a class="btn btn-link" href="">Terms & Condition</a>
+                    <a class="btn btn-link" href="">FAQs & Help</a>
+                </div>
+                
+                <div class="col-lg-3 col-sm-10  mb-5">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Location, City, Country</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
+                    <div class="d-flex pt-2 ">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-10 mb-4">
+                    <div class="row mb-3">
+                        <h4 class="text-white mb-3">Gallery</h4>
+                        <div class="col-4">
+                            <img class="img-fluid" src="assets/imgs/course-3.jpg" alt=""style="border: 5px solid white;">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="assets/imgs/course-1.jpg" alt=""style="border: 5px solid white;">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid " src="assets/imgs/course-2.jpg" alt=""style="border: 5px solid white;">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4" >
+                            <img class="img-fluid" src="assets/imgs/course-2.jpg" alt=""style="border: 5px solid white;">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="assets/imgs/course-3.jpg" alt=""style="border: 5px solid white;">
+                        </div>
+                        <div class="col-4">
+                            <img class="img-fluid" src="assets/imgs/course-1.jpg" alt=""style="border: 5px solid white;">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-10">
+                    <h4 class="text-white mb-3">Newsletter</h4>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-light">
+            
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="">Your Site Name</a>, All Right Reserved.
+
+                        
+                        Designed By <a class="border-bottom" href="">Ben Hmida Aymen</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Cookies</a>
+                            <a href="">Help</a>
+                            <a href="">FQAs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    <!-- fin footer -->
+
+    
+
+        <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- bootstrap.bundle.min.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+</body>
+</html>
